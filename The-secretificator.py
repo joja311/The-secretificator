@@ -81,7 +81,7 @@ while True:
     print('1- Encrypt#')
     print('2-Dencrypt!#')
     choice = input('Enter Choice : ')
-    message = input('Enter the message@: ')
+    message = input('Enter the message@ : ')
     if choice == '1':
         print(hasher(message))
         break
@@ -90,4 +90,4 @@ while True:
         print(dehasher(message))
         break
     else:
-        print('Sorry, Invelid Input!, please try again')
+        print('Sorry, Invalid Input!, please try again')
